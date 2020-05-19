@@ -1,0 +1,10 @@
+https://accounts.spotify.com/authorize?client_id=dd27fdba372b4f14b7dd6f0003ee5455&response_type=code&redirect_uri=https%3A%2F%2Flitl.cf%2Fspotify&scope=user-modify-playback-state
+
+
+Web app intermediary steps:
+1. remote requests one off auth id from web app 
+2. web app replies with one off auth id
+3. remote creates QR code for spotify auth with one off auth id as spotify state
+4. user scans qr code, authorises app and is redirected to web app
+5. remote requests spotify token from web app using one off auth id
+6. web app deletes data saved 
