@@ -6,6 +6,7 @@ This project relies on the following external libraries:
   - Adafruit_GFX
   - Adafruit_SSD1306
   - [QRCode](ricmoo/QRCode)
+  - [URLEncoding](MHCooke/URLEncoding) 
 
 ## To-do:
 Use external URL shortening service. Cannot display 216 character URL QR Code on a 64 pixel tall panel. At least not with a pixel pitch <0.5mm.
